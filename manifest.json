@@ -1,0 +1,69 @@
+{
+  "name": "SoundFree",
+  "short_name": "SoundFree",
+  "description": "Tu música sin límites. Escucha millones de canciones gratis.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "lang": "es",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/72x72/7c5cfc/ffffff?text=SF",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/96x96/7c5cfc/ffffff?text=SF",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/128x128/7c5cfc/ffffff?text=SF",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/192x192/7c5cfc/ffffff?text=SF",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/384x384/7c5cfc/ffffff?text=SF",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/7c5cfc/ffffff?text=SF",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/390x844/0a0a0f/7c5cfc?text=SoundFree",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buscar música",
+      "short_name": "Buscar",
+      "description": "Busca canciones",
+      "url": "/index.html",
+      "icons": [{ "src": "https://via.placeholder.com/96x96/7c5cfc/ffffff?text=🔍", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
